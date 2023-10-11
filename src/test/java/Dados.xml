@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<procedimentos>
+
+	<procedimento num="0" desc="multiplicacao">
+		<caso num="0"
+			desc="multiplicacao de dois numeros inteiros negativos">
+			<numero1>-5</numero1>
+			<numero2>-8</numero2>
+			<resultado>40</resultado>
+		</caso>
+		<caso num="1"
+			desc="multiplicacao de um numero racional positivo por um numero inteiro positivo">
+			<numero1>0.5</numero1>
+			<numero2>10</numero2>
+			<resultado>5</resultado>
+		</caso>
+		<caso num="2"
+			desc="multiplicacao de dois numeros racionais positivos">
+			<numero1>0.3</numero1>
+			<numero2>0.7</numero2>
+			<resultado>0,21</resultado>
+		</caso>
+		<caso num="3"
+			desc="multiplicacao de um numero racional negativo por um numero inteiro positivo">
+			<numero1>-0.6</numero1>
+			<numero2>3</numero2>
+			<resultado>-1,8</resultado>
+		</caso>
+		<caso num="4" desc="multiplicacao de um numero pelo seu inverso">
+			<numero1>0.25</numero1>
+			<numero2>4</numero2>
+			<resultado>1</resultado>
+		</caso>
+	</procedimento>
+
+	<procedimento num="1" desc="divisao">
+		<caso num="0" desc="divisao de dois numeros inteiros negativos">
+			<numero1>-16</numero1>
+			<numero2>-8</numero2>
+			<resultado>2</resultado>
+		</caso>
+		<caso num="1"
+			desc="divisao de um numero racional positivo por um numero inteiro positivo">
+			<numero1>0.5</numero1>
+			<numero2>10</numero2>
+			<resultado>0,05</resultado>
+		</caso>
+		
+		<caso num="2" desc="divisao de dois numeros racionais positivos">
+			<numero1>0.5</numero1>
+			<numero2>0.25</numero2>
+			<resultado>2</resultado>
+		</caso>
+		<caso num="3"
+			desc="divisao de um numero racional negativo por um numero inteiro positivo">
+			<numero1>-0.6</numero1>
+			<numero2>3</numero2>
+			<resultado>-0,2</resultado>
+		</caso>
+		<caso num="4" desc="divisao de um numero por ele mesmo">
+			<numero1>0.25</numero1>
+			<numero2>0.25</numero2>
+			<resultado>1</resultado>
+		</caso>
+	</procedimento>
+	
+	<procedimento num="2" desc="subtracao">
+		<caso num="0" desc="subtracao de dois numeros inteiros negativos">
+			<numero1>-16</numero1>
+			<numero2>-8</numero2>
+			<resultado>-8</resultado>
+		</caso>
+		<caso num="1"
+			desc="subtracao de um numero racional positivo por um numero inteiro positivo">
+			<numero1>0.5</numero1>
+			<numero2>10</numero2>
+			<resultado>-9,5</resultado>
+		</caso>
+		<caso num="2" desc="subtracao de dois numeros racionais positivos">
+			<numero1>0.25</numero1>
+			<numero2>0.75</numero2>
+			<resultado>-0,5</resultado>
+		</caso>
+		<caso num="3"
+			desc="subtracao de um numero racional negativo por um numero inteiro positivo">
+			<numero1>-0.6</numero1>
+			<numero2>3</numero2>
+			<resultado>-3,6</resultado>
+		</caso>
+		<caso num="4" desc="subtracao de um numero por ele mesmo">
+			<numero1>0.25</numero1>
+			<numero2>0.25</numero2>
+			<resultado>0</resultado>
+		</caso>
+	</procedimento>
+	
+	<procedimento num="3" desc="potenciacao">
+		<caso num="0" desc="potencia com base e expoente inteiros positivos">
+			<base>3</base>
+			<expoente>5</expoente>
+			<resultado>243</resultado>
+		</caso>
+		<caso num="1"
+			desc="potencia com base racional positivo e exponte inteiro positivo">
+			<base>0.2</base>
+			<expoente>3</expoente>
+			<resultado>0,008</resultado>
+		</caso>
+		<caso num="2" desc="potencia com base sendo um numero inteiro positivo e expoente racional">
+			<base>9</base>
+			<expoente>0.5</expoente>
+			<resultado>3</resultado>
+		</caso>
+		<caso num="3"
+			desc="potencia com base e expoente inteiros negativos">
+			<base>-4</base>
+			<expoente>-2</expoente>
+			<resultado>0,0625</resultado>
+		</caso>
+		<caso num="4" desc="potencia com base racional e expoente nulo">
+			<base>0.5</base>
+			<expoente>0</expoente>
+			<resultado>1</resultado>
+		</caso>
+	</procedimento>
+	
+	<procedimento num="4" desc="adicao">
+		<caso num="0" desc="adicao de dois numeros inteiros negativos">
+			<numero1>-16</numero1>
+			<numero2>-8</numero2>
+			<resultado>-24</resultado>
+		</caso>
+		<caso num="1"
+			desc="adicao de um numero racional positivo por um numero inteiro positivo">
+			<numero1>0.5</numero1>
+			<numero2>10</numero2>
+			<resultado>10,5</resultado>
+		</caso>
+		<caso num="2" desc="adicao de dois numeros racionais positivos">
+			<numero1>0.5</numero1>
+			<numero2>0.25</numero2>
+			<resultado>0,75</resultado>
+		</caso>
+		<caso num="3"
+			desc="adicao de um numero racional negativo por um numero inteiro positivo">
+			<numero1>-0.7</numero1>
+			<numero2>5</numero2>
+			<resultado>4,3</resultado>
+		</caso>
+		<caso num="4" desc="adicao de um numero por ele mesmo">
+			<numero1>0.25</numero1>
+			<numero2>0.25</numero2>
+			<resultado>0,5</resultado>
+		</caso>
+	</procedimento>
+	
+	
+</procedimentos>
+	
+
+
+
