@@ -48,8 +48,8 @@ public class TestNavegador {
 
 	@AfterClass
 	public static void tearDownAfterClass() throws Exception {
-		driver.close();
-		// driver.quit();
+		//driver.close();
+		driver.quit();
 	}
 
 	@Before
