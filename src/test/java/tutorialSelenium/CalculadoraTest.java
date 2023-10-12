@@ -20,7 +20,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 
-public class TestNavegador {
+public class CalculadoraTest {
 
 	static WebDriver driver;
 	private static Document doc;
